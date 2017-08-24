@@ -3,11 +3,13 @@
   "name": "Calculator-PWA",
   "icons": [
     {
-      "src": "./script/app.js",
+      "src": "icon.png",
       "type": "image/png",
-      "sizes": "48x48"
+      "sizes": "192x192"
     }
-    
   ],
   "start_url": "index.html?launcher=true"
+  
+  "display": "standalone",
+  "theme_color": "#A52A2A"
 }
