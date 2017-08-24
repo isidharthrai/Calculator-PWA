@@ -1,2 +1,3 @@
-# Calculator-PWA
-A web app that functions as a normal calculator but is progressive web app.
+Visit the link to this PWA from here:
+
+https://github.com/SidharthRai/Calculator-PWA/
