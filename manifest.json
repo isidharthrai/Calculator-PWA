@@ -2,6 +2,7 @@
   "short_name": "Calculator",
   "name": "  Calculator
           by Sidharth Rai",
+  "start_url": "index.html?launcher=true",
   "icons": [
     {
     "src": "icon.png",
@@ -21,7 +22,8 @@
     "sizes": "192x192"
   }
   ],
-  "start_url": "index.html?launcher=true",
+  "background_color":"#FFF",
   "display": "standalone",
-  "theme_color": "#A52A2A"
+  "theme_color": "#A52A2A",
+  "orientation":"portrait"
 }

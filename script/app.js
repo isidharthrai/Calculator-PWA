@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) {
     })
 
 }
- 
+ /*
 // Function to perform HTTP request
 function loadXMLDoc() {
   var xhttp = new XMLHttpRequest();
@@ -22,7 +22,7 @@ function loadXMLDoc() {
   };
   xhttp.open("GET", "xmlhttp_info.txt", true);
   xhttp.send();
-}
+}*/
 
 
  	
