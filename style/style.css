@@ -1,0 +1,72 @@
+
+.button
+{
+	background-color: #000;
+	color: #fff;
+	padding: 15px 15px;
+	text-align: center;
+	display: inline-block;
+	width: 15%;
+	height: 8%;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button_reset
+{
+	background-color: #FFF;
+	color: #000;
+	padding: 15px 15px;
+	width: 15%;
+	height: 8%;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;	
+}
+.button_equal
+{
+	background-color: #fff;
+	color: #000;
+	padding: 15px 15px;
+	text-align: center;
+	display: inline-block;
+	width: 15%;
+	height: 8%;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;	
+}
+.button_function
+{
+	background-color: #808080;
+	color: #FFF;
+	padding: 15px 15px;
+	text-align: center;
+	width: 15%;
+	height: 8%;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;	
+}
+body
+{
+
+	width: 400px;
+	position: fixed;
+}
+.display
+{
+background-color:#222;
+width:60%;
+color: #FFF;
+left:15px;
+top:20px;
+
+height:40px;
+}
+.base{
+	background-color:#A52A2A;
+	border-radius: 10%;
+}
