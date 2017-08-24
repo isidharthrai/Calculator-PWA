@@ -1,3 +1,4 @@
+<link rel="manifest" href="manifest.json">
 var cacheName = 'version1(final)';
 
 var cacheFiles = [

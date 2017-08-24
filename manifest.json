@@ -3,10 +3,22 @@
   "name": "Calculator-PWA",
   "icons": [
     {
-      "src": "icon.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "152x152"
+  }, {
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }, {
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }
   ],
   "start_url": "index.html?launcher=true",
   
