@@ -10,29 +10,19 @@ if ('serviceWorker' in navigator) {
     })
 
 }
- /*
+ 
 // Function to perform HTTP request
-var get = function(url) {
-  return new Promise(function(resolve, reject) {
-
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                var result = xhr.responseText
-                result = JSON.parse(result);
-                resolve(result);
-            } else {
-                reject(xhr);
-            }
-        }
-    };
-    
-    xhr.open("GET", url, true);
-    xhr.send();
-
-  }); 
-};*/
+function loadXMLDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "xmlhttp_info.txt", true);
+  xhttp.send();
+}
 
 
  	
