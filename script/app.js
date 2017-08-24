@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
 
 }
 
-/*
+
 // Function to perform HTTP request
 var get = function(url) {
   return new Promise(function(resolve, reject) {
@@ -33,7 +33,7 @@ var get = function(url) {
     xhr.send();
 
   }); 
-};*/
+};
 
 
  	
