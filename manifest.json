@@ -2,7 +2,7 @@
   "short_name": "Calculator",
   "name": "  Calculator
           by Sidharth Rai",
-  "start_url": "./index.html?launcher=true",
+  "start_url": "./index.html5/?launcher=true",
   "icons": [
     {
     "src": "icon.png",
