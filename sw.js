@@ -59,7 +59,7 @@ self.addEventListener('install', function(e){
 				return response;
 			}
 
-			var requestClone = e.request.clone();
+			var requestClone = request.clone();
 
 			fetch(requestClone)
 				.then(function(response){
