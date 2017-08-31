@@ -70,7 +70,7 @@ self.addEventListener('install', function(e){
 						return response;
 					}
 
-					var responseClone = response.clone();
+					var responseClone = e.response.clone();
 
 					caches.open(cacheName).then(function(cache)	{
 						
@@ -85,9 +85,9 @@ self.addEventListener('install', function(e){
 
 				.catch(function(err){
 					console.log('[ServiceWorker] Error Fetching & Caching New Data', err);
-				})
-		})
+				});
+		});
 	);
-})
+});
 
 
