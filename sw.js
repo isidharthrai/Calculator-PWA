@@ -1,14 +1,14 @@
 
-var cacheName = 'version1(final)';
+var cacheName = 'version(final)';
 
 var cacheFiles = [
-	'./',
-	'./index.html',
-	'./style/style.css',
-	'./script/app.js',
-	'./sw.js',
-	'./manifest.json',
-	'./icon.png'
+	'/',
+	'/index.html',
+	'/style/style.css',
+	'/script/app.js',
+	'/sw.js',
+	'/manifest.json',
+	'/icon.png'
 ]
 
 self.addEventListener('install', function(e){
@@ -47,15 +47,15 @@ self.addEventListener('activate', function(e)	{
 
 self.addEventListener('install', function(e){
 	
-	console.log('[Service Worker] Fetching',/* e.request.url*/);
+	console.log('[Service Worker] Fetching',e.request.url);
 
-/*	e.respondwith(
+e.respondwith(
 
 		caches.match(e.request)
 
 		.then(function(response){
 			if (response){
-				/*console.log('[Service Worker] found in Cache', e.request.url);
+				console.log('[Service Worker] found in Cache', e.request.url);
 				return response;
 			}
 
@@ -87,7 +87,7 @@ self.addEventListener('install', function(e){
 					console.log('[ServiceWorker] Error Fetching & Caching New Data', err);
 				})
 		})
-	);*/
+	);
 })
 
 
