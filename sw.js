@@ -47,7 +47,7 @@ self.addEventListener('activate', function(e)	{
 
 self.addEventListener('install', function(e){
 	
-	console.log('[Service Worker] Fetching'/* e.request.url*/);
+	console.log('[Service Worker] Fetching', e.request.url);
 
 	e.respondwith(
 
@@ -81,7 +81,7 @@ self.addEventListener('install', function(e){
 
 
 
-				})
+				});
 
 				.catch(function(err){
 					console.log('[ServiceWorker] Error Fetching & Caching New Data', err);
