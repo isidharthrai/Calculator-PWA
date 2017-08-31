@@ -10,20 +10,27 @@ if ('serviceWorker' in navigator) {
     })
 
 }
- /*
-// Function to perform HTTP request
-function loadXMLDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML =
-      this.responseText;
-    }
-  };
-  xhttp.open("GET", "xmlhttp_info.txt", true);
-  xhttp.send();
-}*/
+ function imgLoad(url) {
+  return new Promise(function(resolve, reject) {      
+    var request = new XMLHttpRequest();
+    request.open('GET', url);
+    request.responseType = 'blob';
 
+    request.onload = function() {
+      if (request.status == 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Image didn\'t load successfully; error code:' + request.statusText));
+      }
+    };
+
+    request.onerror = function() {
+      reject(Error('There was a network error.'));
+    };
+
+    request.send();
+  });
+}
 
  	
 			function Del(val)
