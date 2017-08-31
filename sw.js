@@ -1,14 +1,15 @@
+importScripts('/cache-polyfill.js');
 
 var cacheName = 'version(final)';
 
 var cacheFiles = [
-	'/',
-	'/index.html',
-	'/style/style.css',
-	'/script/app.js',
-	'/sw.js',
-	'/manifest.json',
-	'/icon.png'
+	'./',
+	'./sw.js',
+	'./index.html',
+	'./style/style.css',
+	'./script/app.js',
+	'./manifest.json',
+	'./icon.png'
 ]
 
 self.addEventListener('install', function(e){
@@ -25,7 +26,15 @@ self.addEventListener('install', function(e){
 	);
 });
 
-
+self.addEventListener('fetch', function(event) {
+console.log(event.request.url);
+event.respondWith(
+caches.match(event.request).then(function(response) {
+return response || fetch(event.request);
+})
+);
+});
+/*
 self.addEventListener('activate', function(e)	{
 	console.log('[Service Worker] Activated');
 	e.waitUntil(
@@ -89,5 +98,5 @@ e.respondwith(
 		})
 	);
 })
-
+*/
 
