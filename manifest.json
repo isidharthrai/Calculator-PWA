@@ -1,9 +1,10 @@
 {
+
   "short_name": "Calculator",
   "name": "  Calculator
           by Sidharth Rai",
   "start_url": "index.html",
-  
+  "theme_color": "#A52A2A",
   "icons": [
     {
     "src": "icon.png",
@@ -25,7 +26,6 @@
   ],
   "background_color":"#FFF",
   "display": "standalone",
-  "theme_color": "#A52A2A",
   "orientation":"portrait",
   "lang": "en-US"
 }
