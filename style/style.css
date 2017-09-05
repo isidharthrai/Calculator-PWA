@@ -52,7 +52,7 @@
 }
 body
 {
-	margin: -15px;
+	margin-left: -15px;
 	width: 400px;
 	position: fixed;
 	display: inline-table;
