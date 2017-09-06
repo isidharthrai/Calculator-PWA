@@ -1,5 +1,5 @@
 
-var cacheName = 'version(final)';
+var cacheName = 'version: 1.0.0';
 
 var cacheFiles = [
 	'./',
