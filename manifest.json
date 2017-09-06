@@ -3,7 +3,7 @@
   "short_name": "Calculator",
   "name": "  Calculator
           by Sidharth Rai",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "theme_color": "#A52A2A",
   "icons": [
     {
@@ -25,7 +25,7 @@
   }
   ],
   "background_color":"#FFF",
-  "display": "standalone",
+  "display": "standalone",  
   "orientation":"portrait",
   "lang": "en-US"
 }

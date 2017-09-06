@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "Calculator",
+  "launch_path": "/index.html",
+  "description": "Progressive Web App",
+  "developer": {
+    "name": "Calculator PWA",
+    "url": "https://sidharthrai.github.io/Calculator-PWA/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Calculator-PWA",
+      "description": "Use the progressive Calculator"
+    }
+  }
+}
