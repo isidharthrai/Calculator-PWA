@@ -4,7 +4,7 @@
   "name": "  Calculator
           by Sidharth Rai",
   "start_url": "/index.html",
-  "theme_color": "#A52A2A",
+  
   "icons": [
     {
     "src": "icon.png",
@@ -24,8 +24,9 @@
     "sizes": "192x192"
   }
   ],
-  "background_color":"#FFF",
+  "theme_color": "#A52A2A",
+  "background_color": "#FFF",
   "display": "standalone",  
-  "orientation":"portrait",
+  "orientation": "portrait",
   "lang": "en-US"
 }
