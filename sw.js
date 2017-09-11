@@ -2,14 +2,14 @@
 var cacheName = 'version: 1.0.0';
 
 var cacheFiles = [
-	'./',
-	'/index.html',
-	'/style/style.css',
-	'/script/app.js',
-	'/sw.js',
-	'/manifest.json',
-	'/manifest.webapp',
-	'/icon.png'
+	
+	'./index.html',
+	'./style/style.css',
+	'./script/app.js',
+	'./sw.js',
+	'./manifest.json',
+	'./manifest.webapp',
+	'./icon.png'
 ]
 
 self.addEventListener('install', function(e){

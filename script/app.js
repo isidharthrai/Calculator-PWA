@@ -14,6 +14,7 @@ if ('serviceWorker' in navigator) {
   return new Promise(function(resolve, reject) {      
     var request = new XMLHttpRequest();
     request.open('GET', url);
+    console.log("Offline");
     request.responseType = 'blob';
 
     request.onload = function() {
